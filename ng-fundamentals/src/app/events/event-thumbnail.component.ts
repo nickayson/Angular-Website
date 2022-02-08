@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 @Component({
   selector:'event-thumbnail',
@@ -17,5 +17,5 @@ import { Component } from "@angular/core";
   `
 })
 export class EventThumbnailComponent {
-  event:any
+  @Input() event:any
 }
