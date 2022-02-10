@@ -98,10 +98,12 @@
             ],
             "styles": [
               "src/bootstrap.min.css",
+              "node_modules/toastr/build/toastr.min.css",
               "src/styles.css"
             ],
             "scripts": [
               "src/jquery.min.js",
+              "node_modules/toastr/build/toastr.min.js",
               "src/bootstrap.js"
             ]
           }
