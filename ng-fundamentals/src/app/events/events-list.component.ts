@@ -20,10 +20,10 @@ declare let toastr: any
 })
 
 export class EventsListComponent implements OnInit{
-  events:any[] | undefined
+  events:any[]
 
   constructor(private eventService: EventService, private toastr: ToastrService){
-
+    this.events = this.eventService.getEvents()
   }
 
   ngOnInit(){
